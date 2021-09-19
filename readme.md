@@ -14,3 +14,7 @@ API Source: [football-data.org](https://www.football-data.org/)
 Create account at [football-data.org](https://www.football-data.org/) to get your token. 
 Change the value of HTTP Header's X-Auth-Token at directory [api](/js/api.js).
 You can try to running the app by using VS Code Live Server Extensions.
+
+## Deployment
+
+The app has been deployed at [Unofficial UEFA 2021](https://unofficialuefa2021.netlify.app/)
