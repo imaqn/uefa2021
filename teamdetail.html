@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon-152x152.png">
+    <link rel="apple-touch-icon" href="img/icon-152x152.png">
+    <meta name="theme-color" content="#64b5f6"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2018 World Cup</title>
+</head>
+<body>
+    <!-- Navigasi -->
+    <div class="navbar-fixed">
+        <nav class="indigo darken-4" role="navigation">
+            <div class="nav-wrapper container ">
+                <a class="brand-logo" id="logo-container"><img src="img/icon-home-v1.png" alt="world-cup logo" width="175vw" height="auto"></a>
+                <a href="./index.html#standings" class="sidenav-trigger" id="backStand" data-target="nav-mobile"><i class="material-icons">arrow_back</i></a>
+                <a href="./index.html#savedTeams" class="sidenav-trigger" style="display: none;" id="backSave" data-target="nav-mobile"><i class="material-icons">arrow_back</i></a>
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav indigo darken-4" id="nav-mobile"></ul>
+    <div id="landing">
+        <div class="container" id="profSaved" style="display: none;">
+            <div class="card green darken-2">
+                <div class="card-content white-text">
+                    Profile saved
+                </div>
+            </div>
+        </div>
+        <div id="body-content"></div>
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red" id="save">
+            <i class="large material-icons">save</i>
+            </a>
+        </div>
+    </div>
+    <style>
+        #landing{
+       min-height: 90vh;
+       overflow: auto;
+       background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('/img/UEFA-Champ-2021.webp');
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+   }
+    </style>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="detail.js" type="module"></script>
+</body>
+<footer class="page-footer indigo darken-4">
+    <div class="row">
+        <div class="container center">
+            <h6>Don't miss this year's UEFA Championship League!</h6>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2021
+        </div>
+    </div>
+</footer>
+</html>

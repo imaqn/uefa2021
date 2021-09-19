@@ -1,0 +1,71 @@
+ <div id="landing">
+	<div class="container center">
+		<br>
+		<h5 class="white-text">Choose the group</h5>
+		<form action="javascript:myFunction(); return false;">
+		   <label>
+			   <input name="group1" type="radio" value="A"/>
+			   <span>A</span>
+		   </label>
+			   <label>
+				   <input name="group1" type="radio" value="B"/>
+				   <span>B</span>
+			   </label>
+			   
+			   <label>
+				   <input name="group1" type="radio" value="C"/>
+				   <span>C</span>
+			   </label>
+			   <label>
+				   <input name="group1" type="radio" value="D"/>
+				   <span>D</span>
+			   </label>
+			   <label>
+				   <input name="group1" type="radio" value="E"/>
+				   <span>E</span>
+			   </label>
+			   <label>
+				   <input name="group1" type="radio" value="F"/>
+				   <span>F</span>
+			   </label>
+			   <label>
+				   <input name="group1" type="radio" value="G"/>
+				   <span>G</span>
+			   </label>
+			   <label>
+				   <input name="group1" type="radio" value="H"/>
+				   <span>H</span>
+			   </label>
+			   <br><br>
+			 <a class="indigo darken-4 waves-effect waves-light btn">select</a>
+		</form>
+   </div>
+   <div class="container white-text" id="articles"></div>
+ </div> 
+ <style>
+	label{ 
+		color: #ffffff; 
+	}
+	[type="radio"]:not(:checked)+span:before, [type="radio"]:not(:checked)+span:after {
+    	border: 2px solid #a5a5a2;
+	}
+	[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    	border: 2px solid #42a5f5;	
+	}
+	[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    	background-color: #1a237e;
+	}
+    #landing{
+        height: 90vh;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('/img/UEFA-Champ-2021.webp');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #mainText {
+        margin-top: 30vh;
+        color: white;
+    }
+</style>
+  

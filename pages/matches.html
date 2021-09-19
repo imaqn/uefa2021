@@ -1,0 +1,26 @@
+<div id="landing">
+    <div class="container">
+        <br>
+        <h5 class="white-text">Choose the dates you want to know the matches records</h5>
+        <label for="dateF" class="grey-text text-lighten-3">From</label>
+        <input class="white-text" type="date" id="dateF" required pattern="\d{4}-\d{2}-\d{2}">
+        <label for="dateT" class="grey-text text-lighten-3">To</label>
+        <input class="white-text" type="date" id="dateT" required pattern="\d{4}-\d{2}-\d{2}">
+        <a class="right indigo darken-4 waves-effect waves-light btn">select</a>
+        <div id="teamMatch"></div>
+    </div>
+</div> 
+<style>
+   #landing{
+       min-height: 90vh;
+       overflow: auto;
+       background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('/img/UEFA-Champ-2021.webp');
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+   }
+   ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    }
+</style>
