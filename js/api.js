@@ -1,5 +1,5 @@
 import {getAll, getById, deleteProfile} from "./db.js";
-const base_url = "http://api.football-data.org/v2/";
+const base_url = "https://api.football-data.org/v2/";
 const fetchAPI = url => {
     return fetch(url, {
         headers: {
